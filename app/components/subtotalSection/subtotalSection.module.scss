@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  line-height: 1.5;
+
+  &+& {
+    margin-top: 0.7rem;
+  }
+
+  .rowheader {
+    font-weight: 400;
+  }
+
+  .cell {
+    font-weight: 400;
+  }
+
+  .subtotalPrice {
+    font-weight: 500;
+  }
+
+  .shippingText {
+    font-size: 1.2rem;
+    color: #666;
+  }
+
+  .totalHeading {
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+
+  .currency {
+    font-size: 1.2rem;
+    color: #666;
+  }
+
+  .totalValue {
+    font-size: 2.1rem;
+    font-weight: 500;
+  }
+}

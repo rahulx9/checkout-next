@@ -1,0 +1,25 @@
+.shippingAddressSection {
+    position: relative;
+    padding-top: 3em;
+}
+
+.sectionHeader {
+    margin-bottom: 1.5em;
+}
+
+.sectionTitle {
+    color: #333333;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    font-weight: normal;
+    margin: 0;
+
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shippingAddressSectionContent {
+    display: grid;
+    gap: 2.6rem;
+}

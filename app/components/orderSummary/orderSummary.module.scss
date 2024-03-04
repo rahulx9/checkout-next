@@ -1,0 +1,48 @@
+.orderSummaryWrapper {
+    position: sticky;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+}
+
+
+
+
+
+
+// .header {
+//   color: #000;
+//   font-weight: 500;
+//   margin: 0 0 20px 0;
+//   font-size: 2em;
+// }
+
+// .productTable {
+//   position: relative;
+// }
+
+// .shippingBucketName {
+//   &::after {
+//     background-color: #dededf;
+//     content: "";
+//     display: block;
+//     height: 1px;
+//     left: 0;
+//     position: absolute;
+//     transition: background-color .3s cubic-bezier(.3, 0, 0, 1);
+//     width: 100%;
+//     z-index: 4;
+//     margin-top: 5px;
+//   }
+
+//   .shippingSummaryHeading {
+//     font-size: 1em;
+//     font-weight: 500;
+//     line-height: 1.3em;
+//   }
+
+//   .shippingBucketItems {
+//     color: #303030;
+//   }
+// }

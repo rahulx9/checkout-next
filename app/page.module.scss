@@ -1,0 +1,6 @@
+.content {
+    max-width: 78.5714285714em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(min-content,calc(50% + calc( 66rem /2 - 52rem /2) )) 1fr;
+}

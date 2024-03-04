@@ -1,0 +1,50 @@
+$breadcrumbTextColor: #737373;
+$breadcrumbCompletedTextColor: #333333;
+$breadcrumbLinkColor: #1c1b1b;
+
+.breadcrumbList {
+  margin-top: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  // gap: 10px;
+
+  .breadcrumbLink {
+    text-decoration: none;
+    color: $breadcrumbLinkColor;
+    cursor: pointer;
+  }
+
+  .breadcrumbItem {
+    color: $breadcrumbTextColor;
+
+    .chevronRight {
+      width: 12px;
+      height: 12px;
+      margin: 0 0.65em;
+    }
+
+    .breadcrumbText {
+      // color: #737373;
+    }
+
+    &.current {
+      font-weight: 500;
+      color: $breadcrumbCompletedTextColor;
+    }
+
+
+    &.completed {
+      color: $breadcrumbCompletedTextColor;
+    }
+
+    &:last-of-type {
+      .chevronRight {
+        display: none;
+      }
+    }
+  }
+}

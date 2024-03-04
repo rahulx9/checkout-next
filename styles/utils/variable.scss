@@ -1,0 +1,168 @@
+// Colours
+$cantalope: #ffa273;
+$offWhite: #eeeeec;
+$black: #21201f;
+$petal: #e5ccbc;
+$white: #ffffff;
+$paleBlue: #c8d3f1;
+$navy: #2d313f;
+$umber: #85351b;
+$warmGray: #d0d3bb;
+$gray: #363940;
+$palePetal: #f3e6de;
+$paleGrey: #636363;
+$green: #2d822b;
+$midGray: #888888;
+$lightGray: #bdbdbc;
+$errorMessage: #ff8181;
+$darkGrey: #7c7c7c;
+$lighterGray: #e9e9e9;
+$black1: rgba(0, 0, 0, 0.1);
+$black6: rgba(0, 0, 0, 0.6);
+$pantone: #e3e9f8;
+$darkGray2: #757575;
+$black2: #333332;
+$placeholderGrey: #6c6c6c;
+$borderLightGrey: #d3d2d2;
+$greyLight: #979797;
+$yellow: #f0b44f;
+$greyLighter: #e3e3e3;
+$silver: #c4c4c4;
+$newSiteRed: #af3535;
+$red: #d24343;
+$messageBackground: #f7f7f7;
+
+$colors: (
+  'cantalope': $cantalope,
+  'offWhite': $offWhite,
+  'black': $black,
+  'petal': $petal,
+  'white': $white,
+  'paleBlue': $paleBlue,
+  'navy': $navy,
+  'umber': $umber,
+  'warmGray': $warmGray,
+  'gray': $gray,
+  'green': $green,
+  'midGray': $midGray,
+  'lightGray': $lightGray,
+  'pantone': $pantone,
+  'darkGray2': $darkGray2,
+  'newSiteRed': $newSiteRed,
+  'red': $red,
+  'messageBackground': $messageBackground
+);
+
+// Palettes
+
+$primary: $cantalope;
+
+// Typography
+$small_text: 0.6rem;
+$medium_text: 1.4rem;
+$large_text: 2.2rem;
+$square_text: 1.1rem;
+
+$letter_spacing: 0.15rem;
+
+// Sizes
+$small_padding: 1.4rem;
+$medium_padding: 2.2rem;
+$large_padding: 3rem;
+$square_padding: 1.9rem;
+
+// border Radius
+$small_radius: 4rem;
+$medium_radius: 8rem;
+$large_radius: 12rem;
+
+// Font Family
+$fontFamilyGrosa: 'grosa';
+$fontFamilyIvyText: 'ivy-text';
+$fontFamilyIvyHeadLine: 'ivy-headline';
+
+$borderWhite: solid rgba($white, 0.2) 0.1rem;
+$borderWhiteBright: solid rgba($white, 1) 0.1rem;
+$borderBlack: solid rgba($black, 0.2) 0.1rem;
+
+$borderBlackDark: solid rgba($black, 1) 0.1rem;
+$borderGrey: solid rgba($paleGrey, 0.2) 0.1rem;
+
+// Screen Sizes
+$maxWidthMobile: 480px;
+$maxWidthTablet: 768px;
+$maxWidthSmallScreenDesktop: 960px;
+$maxWidthLargeScreenDesktop: 1200px;
+$minWidthExtraLargeScreenDesktop: 1201px;
+
+:export {
+  maxWidthSmallScreenDesktop: $maxWidthSmallScreenDesktop;
+}
+
+$fontSizes: (
+  '56': ('lineHeight': 6.2rem,
+    'fontSize': 5.6rem,
+  ),
+  '48': ('lineHeight': 5.4rem,
+    'fontSize': 4.8rem,
+  ),
+  '40': ('lineHeight': 4.6rem,
+    'fontSize': 4rem,
+  ),
+  '30': ('lineHeight': 3.6rem,
+    'fontSize': 3rem,
+  ),
+  '24': ('lineHeight': 3rem,
+    'fontSize': 2.4rem,
+  ),
+  '22': ('lineHeight': 2.8rem,
+    'fontSize': 2.2rem,
+  ),
+  '26': ('lineHeight': 3.2rem,
+    'fontSize': 2.6rem,
+  ),
+  '18': ('lineHeight': 2.4rem,
+    'fontSize': 1.8rem,
+  ),
+  '16': ('lineHeight': 2.2rem,
+    'fontSize': 1.6rem,
+  ),
+  '15': ('lineHeight': 2.1rem,
+    'fontSize': 1.5rem,
+  ),
+  '14': ('lineHeight': 2rem,
+    'fontSize': 1.4rem,
+  ),
+  '13': ('lineHeight': 1.9rem,
+    'fontSize': 1.3rem,
+  ),
+  '12': ('lineHeight': 1.6rem,
+    'fontSize': 1.2rem,
+  ),
+  '11': ('lineHeight': 1.7rem,
+    'fontSize': 1.1rem,
+  ),
+  '10': ('lineHeight': 1.5rem,
+    'fontSize': 1rem,
+  ),
+  '9': ('lineHeight': 1.4rem,
+    'fontSize': 0.9rem,
+  ),
+  '6': ('lineHeight': 1.2rem,
+    'fontSize': 0.6rem,
+  ),
+);
+
+$letterSpacing: (
+  '4': 0.04em,
+  '5': 0.05em,
+  '6': 0.06em,
+  'normal': normal,
+);
+
+$addToCartFixedMobileSectionHeight: 12.7rem;
+$headerMobileHeight: 6rem;
+$headerMobileHeightWithTertiaryMenu: 11.4rem;
+$bannerMobileHeight: 2.73rem;
+$headerDesktopHeight: 12rem;
+$singleHeaderDesktopHeight: 6rem;

@@ -1,0 +1,18 @@
+$gridGap: 1.4rem;
+
+.shippingAddressFrom {
+    display: grid;
+    gap: $gridGap;
+}
+
+.nameWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $gridGap;
+}
+
+.cityWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $gridGap;
+}

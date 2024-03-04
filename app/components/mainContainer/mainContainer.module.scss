@@ -1,0 +1,30 @@
+.main {
+  padding: 3.8rem;
+}
+
+.alternativePaymentSeparator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8571428571em;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+  color: #737373;
+  margin-top: 2.5em;
+
+  &::after,
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    background-color: #e6e6e6;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+
+  .alternativePaymentSeparatorContent {
+    display: inline-block;
+    padding: 0 1em;
+  }
+}

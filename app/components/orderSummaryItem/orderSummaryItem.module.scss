@@ -1,0 +1,33 @@
+$normalFont: 1.4rem;
+$smallFont: 1.2rem;
+
+.orderSummaryItemWrapper {
+    display: flex;
+}
+
+.itemDetails {
+    padding-left: $normalFont;
+    flex-grow: 1;
+
+    .itemName,
+    .itemVarient {
+        margin: 0;
+    }
+
+    .itemName {
+        color: #000;
+        font-size: $normalFont;
+    }
+
+    .itemVarient {
+        font-size: $smallFont;
+    }
+}
+
+.itemPrice {
+    font-size: $normalFont;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
